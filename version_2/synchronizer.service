@@ -1,0 +1,15 @@
+[Unit]
+Description=Synchroniser
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+Restart=always
+RestartSec=100ms
+EnvironmentFile=/etc/.synchronizer_conf
+ExecStart=/etc/systemd/system/synchroniser/synchroniser $ARG1 $ARG2 $ARG3 $ARG4
+
+[Install]
+WantedBy=multi-user.target

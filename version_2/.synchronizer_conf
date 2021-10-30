@@ -1,0 +1,4 @@
+ARG1=-s
+ARG2=--hours=0
+ARG3=--minutes=0
+ARG4=--seconds=0
