@@ -43,10 +43,4 @@ int wait_for(size_t max_secs){
 	}
 }
 
-// int main()
-// {
-// 	size_t step_secs = 10, max_secs = 1000;
-// 	wait_for(max_secs, step_secs);
 
-// 	return 0;
-// }

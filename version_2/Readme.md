@@ -1,4 +1,4 @@
-# Time synchronizer version 2
+# Time synchronizer version 3
 
 ## Description
 Systemctl sevice for:  
@@ -43,10 +43,10 @@ Time synchronizer.
                              system one.
   -w, --wait                 Wait for some time.
   
-  -c, --seconds              Seconds to wait.
+  -c, --seconds	      Seconds to wait.
 
-  -h, --hours                Hours to wait.
-  -m, --minutes 	     Minutes to wait.
+  -h, --hours	              Hours to wait.
+  -m, --minutes 	      Minutes to wait.
 
                              
   -?, --help                 Give this help list
